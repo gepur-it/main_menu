@@ -1,0 +1,8 @@
+services:
+    app.main_menu:
+        class: AppBundle\MainMenu\GlobalMenu
+        public: true
+
+    AppBundle\MainMenu\FrontMenuItem\MainMenuItemConverter:
+        autovire: true
+
