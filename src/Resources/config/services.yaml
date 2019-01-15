@@ -4,5 +4,5 @@ services:
         public: true
 
     AppBundle\MainMenu\FrontMenuItem\MainMenuItemConverter:
-        autovire: true
+        autowire: true
 
