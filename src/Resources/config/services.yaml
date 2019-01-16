@@ -1,8 +1,7 @@
 services:
-    app.main_menu:
-        class: AppBundle\MainMenu\GlobalMenu
-        public: true
+    GepurIt\MainMenuBundle\MainMenu:
+        autowire: true
 
-    AppBundle\MainMenu\FrontMenuItem\MainMenuItemConverter:
+    GepurIt\MainMenuBundle\FrontMenuItem\MainMenuItemConverter:
         autowire: true
 
