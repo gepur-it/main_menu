@@ -2,12 +2,13 @@
 
 namespace GepurIt\MainMenuBundle\DependencyInjection\CompilerPass;
 
+use GepurIt\MainMenuBundle\MainMenu;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 class MainMenuCompilerPass implements CompilerPassInterface
 {
-    const MAIN_MENU__SERVICE_NAME = 'app.main_menu';
+    const MAIN_MENU__SERVICE_NAME = MainMenu::class;
     const MAIN_MENU__ITEM_TAG     = 'app.main_menu_item';
 
     /**
