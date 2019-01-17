@@ -9,7 +9,6 @@ namespace GepurIt\MainMenuBundle\FrontMenuItem;
 /**
  * Class FrontMainMenuItem
  * @package AppBundle\MainMenu\FrontMainMenuItem
- * @JMS\ExclusionPolicy("all")
  */
 class FrontMenuItem implements \JsonSerializable
 {
